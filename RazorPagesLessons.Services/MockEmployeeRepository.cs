@@ -22,19 +22,19 @@ namespace RazorPagesLessons.Services
                 },
                 new Employee
                 {
-                    Id= 0, Name = "Ben", Email = "ben@gmail.com", PhotoPath = "avatar3.png", Department = Dept.IT
+                    Id= 2, Name = "Ben", Email = "ben@gmail.com", PhotoPath = "avatar3.png", Department = Dept.IT
                 },
                 new Employee
                 {
-                    Id= 0, Name = "Den", Email = "den@gmail.com", PhotoPath = "avatar4.png", Department = Dept.Payroll
+                    Id= 3, Name = "Den", Email = "den@gmail.com", PhotoPath = "avatar4.png", Department = Dept.Payroll
                 },
                 new Employee
                 {
-                    Id= 0, Name = "Jess", Email = "jessgmail.com", PhotoPath = "avatar5.png", Department = Dept.HR
+                    Id= 4, Name = "Jess", Email = "jessgmail.com", PhotoPath = "avatar5.png", Department = Dept.HR
                 },
                 new Employee
                 {
-                    Id= 0, Name = "Andry", Email = "andry@gmail.com",  Department = Dept.Payroll
+                    Id= 5, Name = "Andry", Email = "andry@gmail.com",  Department = Dept.Payroll
                 }
             };
         }
