@@ -705,3 +705,7 @@ W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netco
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\RazorPagesGeneral.pdb
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\RazorPagesGeneral.genruntimeconfig.cache
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\Razor\Pages\Employees\Employees.cshtml.g.cs
+W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\bin\Debug\netcoreapp3.1\RazorPagesLessons.Models.dll
+W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\bin\Debug\netcoreapp3.1\RazorPagesLessons.Services.dll
+W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\bin\Debug\netcoreapp3.1\RazorPagesLessons.Models.pdb
+W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\bin\Debug\netcoreapp3.1\RazorPagesLessons.Services.pdb

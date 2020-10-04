@@ -25,6 +25,8 @@
       "RazorPagesGeneral/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.8",
+          "RazorPagesLessons.Models": "1.0.0",
+          "RazorPagesLessons.Services": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -526,6 +528,25 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.3": {},
+      "RazorPagesLessons.Models/1.0.0": {
+        "runtime": {
+          "RazorPagesLessons.Models.dll": {}
+        },
+        "compile": {
+          "RazorPagesLessons.Models.dll": {}
+        }
+      },
+      "RazorPagesLessons.Services/1.0.0": {
+        "dependencies": {
+          "RazorPagesLessons.Models": "1.0.0"
+        },
+        "runtime": {
+          "RazorPagesLessons.Services.dll": {}
+        },
+        "compile": {
+          "RazorPagesLessons.Services.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2331,6 +2352,16 @@
       "sha512": "sha512-+MvhNtcvIbqmhANyKu91jQnvIRVSTiaOiFNfKWwXGHG48YAb4I/TyH8spsySiPYla7gKal5ZnF3teJqZAximyQ==",
       "path": "system.threading.tasks.extensions/4.5.3",
       "hashPath": "system.threading.tasks.extensions.4.5.3.nupkg.sha512"
+    },
+    "RazorPagesLessons.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RazorPagesLessons.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

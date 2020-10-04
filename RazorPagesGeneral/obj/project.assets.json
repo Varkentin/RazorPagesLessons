@@ -269,6 +269,29 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "RazorPagesLessons.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RazorPagesLessons.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RazorPagesLessons.Models.dll": {}
+        }
+      },
+      "RazorPagesLessons.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RazorPagesLessons.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RazorPagesLessons.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RazorPagesLessons.Services.dll": {}
+        }
       }
     }
   },
@@ -648,11 +671,23 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "RazorPagesLessons.Models/1.0.0": {
+      "type": "project",
+      "path": "../RazorPagesLessons.Models/RazorPagesLessons.Models.csproj",
+      "msbuildProject": "../RazorPagesLessons.Models/RazorPagesLessons.Models.csproj"
+    },
+    "RazorPagesLessons.Services/1.0.0": {
+      "type": "project",
+      "path": "../RazorPagesLessons.Services/RazorPagesLessons.Services.csproj",
+      "msbuildProject": "../RazorPagesLessons.Services/RazorPagesLessons.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.8"
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.8",
+      "RazorPagesLessons.Models >= 1.0.0",
+      "RazorPagesLessons.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -680,7 +715,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesLessons.Models\\RazorPagesLessons.Models.csproj": {
+              "projectPath": "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesLessons.Models\\RazorPagesLessons.Models.csproj"
+            },
+            "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesLessons.Services\\RazorPagesLessons.Services.csproj": {
+              "projectPath": "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesLessons.Services\\RazorPagesLessons.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

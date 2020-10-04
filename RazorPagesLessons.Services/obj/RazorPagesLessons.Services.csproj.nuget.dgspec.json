@@ -1,77 +1,9 @@
 {
   "format": 1,
   "restore": {
-    "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj": {}
+    "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesLessons.Services\\RazorPagesLessons.Services.csproj": {}
   },
   "projects": {
-    "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj",
-        "projectName": "RazorPagesGeneral",
-        "projectPath": "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj",
-        "packagesPath": "C:\\Users\\kvint\\.nuget\\packages\\",
-        "outputPath": "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesGeneral\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\kvint\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesLessons.Models\\RazorPagesLessons.Models.csproj": {
-                "projectPath": "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesLessons.Models\\RazorPagesLessons.Models.csproj"
-              },
-              "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesLessons.Services\\RazorPagesLessons.Services.csproj": {
-                "projectPath": "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesLessons.Services\\RazorPagesLessons.Services.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
-              "target": "Package",
-              "version": "[3.1.8, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesLessons.Models\\RazorPagesLessons.Models.csproj": {
       "version": "1.0.0",
       "restore": {
