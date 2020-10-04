@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "38k4hyReyTvAcXYfihfOe2VUB0mPZkKMz/L2l2A8mVP1OFvGf9zQycC//jy8ehqJei6zPXC4FGiD+rnIrRhwPQ==",
+  "success": true,
+  "projectFilePath": "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesLessons.Models\\RazorPagesLessons.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kvint\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kvint\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
