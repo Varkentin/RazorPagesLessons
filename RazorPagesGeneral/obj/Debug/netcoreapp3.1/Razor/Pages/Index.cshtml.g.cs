@@ -19,8 +19,15 @@ using RazorPagesGeneral;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\Pages\_ViewImports.cshtml"
+using RazorPagesLessons.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9f8faf6a54c9fdfbca14efe76028545076d2c293", @"/Pages/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8ab7ceaac2ce364bc24051f31b0ad31fe5d71166", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2220f812cf1109be5ca68f407f01a4689dd3e4aa", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Index : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         #pragma warning disable 1998
