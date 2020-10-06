@@ -6,7 +6,7 @@ using System.Text;
 
 namespace RazorPagesLessons.Services
 {
-    public class MockEmployeeRepository : IEmployeeRepository
+    public class MockEmployeeRepository : IEmployeeRepository 
     {
         private List<Employee> _employeeList;
         public MockEmployeeRepository()
@@ -47,6 +47,21 @@ namespace RazorPagesLessons.Services
         public Employee GetEmployee(int id)
         {
             return _employeeList.FirstOrDefault(x => x.Id == id);
+        }
+
+        public Employee Update(Employee updatedEmployee)
+        {
+            Employee employee = _employeeList.FirstOrDefault(x=> x.Id == updatedEmployee.Id);
+
+            if(employee != null)
+            {
+                employee.Name = updatedEmployee.Name;
+                employee.PhotoPath = updatedEmployee.PhotoPath;
+                employee.Email = updatedEmployee.Email;
+                employee.Department = updatedEmployee.Department;
+
+            }
+            return employee;
         }
     }
 }
