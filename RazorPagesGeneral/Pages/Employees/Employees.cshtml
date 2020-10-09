@@ -4,6 +4,11 @@
     ViewData["Title"] = "Employees";
 }
 
+@if(TempData["SuccessMessage"]!= null)
+{
+<div class="alert alert-success text-center">@TempData["SuccessMessage"]</div>
+}
+
 <h1>Employees</h1>
 
 <div class="row">

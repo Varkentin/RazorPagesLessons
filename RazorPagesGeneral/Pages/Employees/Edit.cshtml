@@ -1,12 +1,34 @@
-﻿@page "{id}"
+﻿@page "{id}/{handler?}"
 @model RazorPagesGeneral.Pages.Employees.EditModel
 @{
     ViewData["Title"] = "Edit";
     var photoPath = $"/images/{Model.Employee.PhotoPath ?? "noimage.png"}";
 
 }
+<form method="post" asp-page-handler="UpdateNotificationPerfernces">
+    <div class="row text-center notifyBlock">
+        <div class="col form-check">
+            <h1>Notification Perference</h1>
+            <input asp-for ="Notify" class="form-check-input"/>
+            <label asp-for ="Notify" class="form-check-label">
+                Receive emaile notification when my details change
+            </label><br />
+            <button type="submit" class="btn btn-primary text-center">Update Notification Perference</button>
+
+            @if(!string.IsNullOrWhiteSpace(Model.Massage))
+            {
+                <div class="alert alert-success">
+                    <p class="p-3 mt-2">@Model.Massage</p>
+                </div>
+            }
+        </div>
+
+    </div>
+    <hr />
+
+</form>
     <!--Создаём форму редактирования-->
-<form method="post" class="mt-3" enctype="multipart/form-data">
+<form method="post" asp-page-handler="OnPost" class="mt-3" enctype="multipart/form-data">
     <!--Создаём скрытое поле для параметра -->
     <input type="hidden" asp-for="Employee.Id"/>
     <input type="hidden" asp-for="Employee.PhotoPath"/>
