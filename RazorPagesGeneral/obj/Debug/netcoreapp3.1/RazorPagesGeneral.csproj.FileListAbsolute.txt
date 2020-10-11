@@ -712,3 +712,5 @@ W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\bin\Debug\netco
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\Razor\Pages\Employees\Details.cshtml.g.cs
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\Razor\Pages\NotFound.cshtml.g.cs
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\Razor\Pages\Employees\Edit.cshtml.g.cs
+W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\Razor\Pages\Employees\Delete.cshtml.g.cs
+W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_DisplayEmployeePartial.cshtml.g.cs
