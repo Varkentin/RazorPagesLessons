@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bkdJyvZTF1L+LjKgdtZvTTWBQkqjpaZZQ0HT/k+hKvHBwR7CXCrl+Xv8tezZ4eeqXV6Zh+DDMMinaweNym/5hA==",
+  "dgSpecHash": "umUGscR2iWrIiIx0MMnE3IH0jjpSl5rQ96kpBmD6WRCvFEAXmEL/4HPtmIkHCtR9w5xJjVWyXlkNFP8SP8bJmg==",
   "success": true,
   "projectFilePath": "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesGeneral\\RazorPagesGeneral.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\kvint\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.1.6\\microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
     "C:\\Users\\kvint\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\kvint\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Users\\kvint\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\kvint\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\kvint\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\kvint\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",

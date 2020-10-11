@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "38k4hyReyTvAcXYfihfOe2VUB0mPZkKMz/L2l2A8mVP1OFvGf9zQycC//jy8ehqJei6zPXC4FGiD+rnIrRhwPQ==",
+  "dgSpecHash": "rbJwQXIivgL5mrOTBI3R7pjHON01sccAIBcAohJOWkt0brF1xxRh2fREwSzKM7TgRGgYSkB7pnKakMztTotcHA==",
   "success": true,
   "projectFilePath": "W:\\Work_C#\\RazorPagesLessons\\RazorPagesLessons\\RazorPagesLessons.Models\\RazorPagesLessons.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kvint\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\kvint\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\kvint\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\kvint\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

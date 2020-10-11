@@ -35,32 +35,55 @@ namespace RazorPagesGeneral.Pages.Employees
 
 
 
-        public IActionResult OnGet(int id)
+        public IActionResult OnGet(int? id)
         {
-            Employee = _employeeRepository.GetEmployee(id);
+            if (id.HasValue)
+                Employee = _employeeRepository.GetEmployee(id.Value);
+            else
+                Employee = new Employee();
+
             if (Employee == null)
                 RedirectToPage("/NotFound");
             return Page();
         }
 
-        public IActionResult OnPost(Employee employee)
+        public IActionResult OnPost()
         {
-            if(Photo!= null)
+            if(ModelState.IsValid)
             {
-                if(employee.PhotoPath != null)
+                if(Photo!= null)
                 {
-                    string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "images", employee.PhotoPath);
-                    System.IO.File.Delete(filePath);
+                    if(Employee.PhotoPath != null)
+                    {
+                        string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "images", Employee.PhotoPath);
+                        System.IO.File.Delete(filePath);
+
+                    }
+
+                    Employee.PhotoPath = ProcessUploadFile();
+                }
+
+                if(Employee.Id>0)
+                { 
+                Employee = _employeeRepository.Update(Employee);
+
+                TempData["SuccessMessage"] = $"Update {Employee.Name} Successful!"; 
+                
+                }
+                else
+                {
+                    Employee = _employeeRepository.Add(Employee);
+
+                    TempData["SuccessMessage"] = $"Adding {Employee.Name} Successful!";
 
                 }
 
-                Employee.PhotoPath = ProcessUploadFile();
+                return RedirectToPage("Employees");
+               
             }
-            Employee = _employeeRepository.Update(employee);
+            
+                return Page();
 
-            TempData["SuccessMessage"] = $"Update {Employee.Name} Successful!";
-
-            return RedirectToPage("Employees");
         }
 
         public void OnPostUpdateNotificationPerfernces(int id)
