@@ -6,3 +6,4 @@ W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesLessons.Models\obj\Debu
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesLessons.Models\obj\Debug\netstandard2.0\RazorPagesLessons.Models.dll
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesLessons.Models\obj\Debug\netstandard2.0\RazorPagesLessons.Models.pdb
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesLessons.Models\obj\Debug\netstandard2.0\RazorPagesLessons.Models.csproj.CoreCompileInputs.cache
+W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesLessons.Models\obj\Debug\netstandard2.0\RazorPagesLessons.Models.csprojAssemblyReference.cache
