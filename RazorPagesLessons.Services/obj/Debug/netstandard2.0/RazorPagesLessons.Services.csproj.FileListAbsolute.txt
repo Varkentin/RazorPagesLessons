@@ -6,7 +6,7 @@ W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesLessons.Services\bin\De
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.csprojAssemblyReference.cache
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.AssemblyInfoInputs.cache
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.AssemblyInfo.cs
-W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.csproj.CoreCompileInputs.cache
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.csproj.CopyComplete
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.dll
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.pdb
+W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesLessons.Services\obj\Debug\netstandard2.0\RazorPagesLessons.Services.csproj.CoreCompileInputs.cache

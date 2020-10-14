@@ -7,6 +7,7 @@ using RazorPagesLessons.Services;
 
 namespace RazorPagesGeneral.ViewComponents
 {
+    [ViewComponent(Name = "HeadCount")]
     public class HeadCountViewComponent : ViewComponent
     {
         private readonly IEmployeeRepository _employeeRepository;
@@ -19,7 +20,7 @@ namespace RazorPagesGeneral.ViewComponents
 
         public IViewComponentResult Invoke(Dept? department = null)
         {
-            var result = _employeeRepository.EmployeeCountByDept(department);
+            IEnumerable<DeptHeadCount> result = _employeeRepository.EmployeeCountByDept(department);
             return View(result);
         }
     }

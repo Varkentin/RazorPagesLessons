@@ -19,9 +19,13 @@ namespace RazorPagesGeneral.Pages.Employees
                 
         }
         public IEnumerable<Employee> Employees { get; set; }
+
+        [BindProperty(SupportsGet =true)]
+        public string SearchTerm { get; set; }
+
         public void OnGet()
         {
-            Employees = _db.GetAllEmployees();
+            Employees = _db.Search(SearchTerm);
         }
     }
 }

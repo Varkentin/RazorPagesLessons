@@ -6,7 +6,7 @@ using System.Text;
 
 namespace RazorPagesLessons.Services
 {
-    public class MockEmployeeRepository : IEmployeeRepository 
+    public class MockEmployeeRepository : IEmployeeRepository
     {
         private List<Employee> _employeeList;
         public MockEmployeeRepository()
@@ -42,40 +42,40 @@ namespace RazorPagesLessons.Services
 
         public Employee Add(Employee newEmployee)
         {
-            newEmployee.Id = _employeeList.Max(x=> x.Id)+1;
+            newEmployee.Id = _employeeList.Max(x => x.Id) + 1;
             _employeeList.Add(newEmployee);
             return newEmployee;
         }
 
         public Employee Delete(int id)
         {
-            Employee employeeToDelete = _employeeList.FirstOrDefault(x => x.Id==id);
+            Employee employeeToDelete = _employeeList.FirstOrDefault(x => x.Id == id);
             if (employeeToDelete != null)
                 _employeeList.Remove(employeeToDelete);
             return employeeToDelete;
         }
 
-        public IEnumerable<DeptHeadCount> EmployeeCountByDept(Dept? department)
+        public IEnumerable<DeptHeadCount> EmployeeCountByDept(Dept? dept)
         {
             IEnumerable<Employee> query = _employeeList;
-            if (department.HasValue)
-                query = query.Where(x => x.Department == department.Value);
-            
+            if (dept.HasValue)
+                query = query.Where(x => x.Department == dept.Value);
+
             return query.GroupBy(x => x.Department)
-                .Select(x => new DeptHeadCount() 
-                {   
-                    Department = x.Key.Value, 
-                    Count = x.Count() 
-                
+                .Select(x => new DeptHeadCount()
+                {
+                    Department = x.Key.Value,
+                    Count = x.Count()
+
                 }).ToList();
 
         }
 
-    
+
 
         public IEnumerable<Employee> GetAllEmployees()
         {
-           return _employeeList;
+            return _employeeList;
         }
 
         public Employee GetEmployee(int id)
@@ -83,11 +83,18 @@ namespace RazorPagesLessons.Services
             return _employeeList.FirstOrDefault(x => x.Id == id);
         }
 
+        public IEnumerable<Employee> Search(string searchTrem)
+        {
+            if (string.IsNullOrWhiteSpace(searchTrem))
+                return _employeeList;
+            return _employeeList.Where(x => x.Name.ToLower().Contains(searchTrem.ToLower()) || x.Email.Contains(searchTrem.ToLower()));
+        }
+
         public Employee Update(Employee updatedEmployee)
         {
-            Employee employee = _employeeList.FirstOrDefault(x=> x.Id == updatedEmployee.Id);
+            Employee employee = _employeeList.FirstOrDefault(x => x.Id == updatedEmployee.Id);
 
-            if(employee != null)
+            if (employee != null)
             {
                 employee.Name = updatedEmployee.Name;
                 employee.PhotoPath = updatedEmployee.PhotoPath;
@@ -99,4 +106,5 @@ namespace RazorPagesLessons.Services
         }
 
 
+    }
 }

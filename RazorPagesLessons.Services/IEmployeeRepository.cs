@@ -7,6 +7,8 @@ namespace RazorPagesLessons.Services
 {
     public interface IEmployeeRepository
     {
+        IEnumerable<Employee> Search(string searchTrem);
+
         IEnumerable<Employee> GetAllEmployees();
         
         Employee GetEmployee(int id);
@@ -17,6 +19,6 @@ namespace RazorPagesLessons.Services
 
         Employee Delete(int id);
 
-        IEnumerable<DeptHeadCount> EmployeeCountByDept(Dept? department);
+        IEnumerable<DeptHeadCount> EmployeeCountByDept(Dept? dept);
     }
 }
