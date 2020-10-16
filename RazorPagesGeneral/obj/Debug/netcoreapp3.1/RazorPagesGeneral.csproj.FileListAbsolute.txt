@@ -667,9 +667,6 @@ W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\bin\Debug\netco
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\RazorPagesGeneral.csprojAssemblyReference.cache
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\RazorPagesGeneral.AssemblyInfoInputs.cache
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\RazorPagesGeneral.AssemblyInfo.cs
-W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\RazorPagesGeneral.csproj.CoreCompileInputs.cache
-W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\RazorPagesGeneral.MvcApplicationPartsAssemblyInfo.cs
-W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\RazorPagesGeneral.MvcApplicationPartsAssemblyInfo.cache
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\RazorPagesGeneral.RazorAssemblyInfo.cache
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\RazorPagesGeneral.RazorAssemblyInfo.cs
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\RazorPagesGeneral.TagHelpers.input.cache
@@ -741,3 +738,7 @@ W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\bin\Debug\netco
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\RazorPagesGeneral.csproj.CoreCompileInputs.cache
+W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\RazorPagesGeneral.MvcApplicationPartsAssemblyInfo.cs
+W:\Work_C#\RazorPagesLessons\RazorPagesLessons\RazorPagesGeneral\obj\Debug\netcoreapp3.1\RazorPagesGeneral.MvcApplicationPartsAssemblyInfo.cache
