@@ -2,7 +2,8 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "C:\\Users\\kvint\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\kvint\\.nuget\\packages"
+      "C:\\Users\\kvint\\.nuget\\packages",
+      "C:\\Microsoft\\Xamarin\\NuGet"
     ]
   }
 }
